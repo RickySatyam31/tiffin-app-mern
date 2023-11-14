@@ -1,0 +1,30 @@
+.tagline {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.text {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.image {
+  /* Your existing styles */
+  width: 100%;
+  height: auto;
+  /* Floating Animation */
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

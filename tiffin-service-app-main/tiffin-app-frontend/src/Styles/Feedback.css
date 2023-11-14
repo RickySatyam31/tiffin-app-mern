@@ -1,0 +1,55 @@
+/* Add this to your Feedback.css file */
+.floating-image {
+  width: 100%;
+  height: auto;
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.feedback-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-form > * {
+  margin-bottom: 20px;
+}
+
+.feedback-button {
+  width: 50%; 
+}
+
+.feedback-submitted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-submitted > * {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,39 @@
+.pricing {
+  padding: 40px 0;
+  background-color: #f6f6f6;
+}
+
+.pricingHeader {
+  margin-bottom: 50px;
+}
+
+.pricingCard {
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pricingCard.mostPopular {
+  background-color: #ffac00;
+}
+
+.pricingTitle {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.pricingDescription {
+  margin-bottom: 30px;
+}
+
+.pricingPrice {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.pricingButton {
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 15px 50px;
+  font-weight: bold;
+}

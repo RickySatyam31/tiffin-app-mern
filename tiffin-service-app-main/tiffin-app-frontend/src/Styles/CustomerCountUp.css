@@ -1,0 +1,38 @@
+#customer-count-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.count-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  border: 2px solid #333;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+  transition: transform 0.3s ease;
+  margin-right: 20px;
+}
+
+.count-box:hover {
+  transform: scale(1.05);
+}
+
+.count-box h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.count-box h6 {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.count-box svg {
+  margin-bottom: -15px;
+}

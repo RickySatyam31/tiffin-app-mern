@@ -1,0 +1,66 @@
+.my-team-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.team-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.team-members-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.team-card {
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 600px) {
+  .my-team-page {
+    padding: 30px;
+  }
+
+  .team-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .team-members-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-card {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.team-member-image img {
+  width: 100%;
+  max-width: 200px; /* Set a maximum width for responsiveness */
+  height: auto;
+  border-radius: 50%; /* Optional: Add border-radius for rounded images */
+  object-fit: cover; /* Ensure all images have the same size and shape */
+}
+/* Media Query for Mobile */
+@media (max-width: 600px) {
+  .team-member-image img {
+    max-width: 150px; /* Set a smaller maximum width for mobile */
+  }
+}
+/* .social-icons{
+  width: fit-content;
+  display: inline;
+} */
