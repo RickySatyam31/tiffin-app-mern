@@ -48,7 +48,7 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar position="static" className="navbar">
+    <AppBar position="fixed" className="navbar">
       <Toolbar className="navbar__toolbar" disableGutters>
         <Typography variant="h6" className="navbar__logo">
           <img src={Logo} alt="Logo" width="100" height="auto" />

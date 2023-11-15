@@ -100,3 +100,9 @@
   padding-right:5%;
   color: black;
 }
+.navbar__tab.active {
+  color: #ffac00; 
+}
+.navbar__menuItem.active {
+  color: #ffac00; 
+}

@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // Enable CORS middleware before defining routes
 app.use(
     cors({
-      origin: 'https://gujju-tiffin.onrender.com', // Replace with your React frontend's URL
+      origin: 'https://gujju-tiffin.onrender.com', 
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     })
 );
