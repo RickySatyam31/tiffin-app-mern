@@ -98,7 +98,7 @@ export default function Navbar() {
           variant="contained"
           sx={{ borderRadius: '30px', padding: '10px 20px' }}
           onClick={() => {
-            window.location.href = 'tel:+1234567890';
+            window.location.href = 'tel:+15485772223';
           }}
         >
           <PhoneIcon sx={{ mr: '0.5rem' }} />
