@@ -25,7 +25,7 @@ function RaitingFeedback() {
     };
 
     // Send a POST request to your server
-    fetch('https://gujju-tiffin.onrender.com/api/trial-request', {
+    fetch('https://gujju-tiffin-840v.onrender.com/api/trial-request', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

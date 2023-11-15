@@ -27,7 +27,7 @@ function TrialRequestModal() {
 
   const handleSubmit = () => {
     // Send the formData to your backend server
-    fetch('https://gujju-tiffin.onrender.com/api/trial-request', {
+    fetch('https://gujju-tiffin-840v.onrender.com/api/trial-request', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
