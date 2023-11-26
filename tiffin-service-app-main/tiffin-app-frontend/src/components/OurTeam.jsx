@@ -82,7 +82,7 @@ const TeamMember = ({ image, name, description, delay }) => {
                     name="Ricky (Tech-Marketing Architect)"
                     description=
                     "Tech enthusiast and marketing maven, I drive the digital experience, fusing code with creativity to elevate businesses in the online realm."                    
-                    delay={0.3} // Add delay for the first card
+                    delay={0.2} // Add delay for the first card
                   />
                 </div>
               </div>
