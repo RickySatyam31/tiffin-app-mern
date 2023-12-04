@@ -16,7 +16,7 @@ const CustomerCountUp = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCustomerCount((prevCount) => {
-        if (prevCount < 6) {
+        if (prevCount < 15) {
           return prevCount + 1;
         } else {
           clearInterval(interval);
@@ -33,7 +33,7 @@ const CustomerCountUp = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTiffinCount((prevCount) => {
-        if (prevCount < 90) {
+        if (prevCount < 450) {
           return prevCount + 1;
         } else {
           clearInterval(interval);
@@ -50,7 +50,7 @@ const CustomerCountUp = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setDaysCount((prevCount) => {
-        if (prevCount < 30) {
+        if (prevCount < 60) {
           return prevCount + 1;
         } else {
           clearInterval(interval);

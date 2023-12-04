@@ -24,29 +24,33 @@ function TrialRequestModal() {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
+const handleSubmit = () => {
+  // Close the modal and show the toast immediately
+  handleClose();
+  setSnackbarMessage('Processing your request...');
 
-  const handleSubmit = () => {
-    // Send the formData to your backend server
-    fetch('https://gujju-tiffin-840v.onrender.com/api/trial-request', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
+  // Send the formData to your backend server
+  fetch('https://gujju-tiffin-840v.onrender.com/api/trial-request', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(formData),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      // Reset the form after API call is complete
+      resetForm();
+      setSnackbarMessage('We will reach you soon 😉!');
+      setSnackbarOpen(true);
     })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        handleClose();
-        resetForm();
-        setSnackbarMessage('We will Reach you soon 😉!');
-        setSnackbarOpen(true);
-      })
-      .catch((error) => {
-        console.error('Error submitting form:', error);
-      });
-  };
-
+    .catch((error) => {
+      console.error('Error submitting form:', error);
+      setSnackbarMessage('Error submitting the form. Please try again.');
+      setSnackbarOpen(true);
+    });
+};
   const resetForm = () => {
     setFormData({
       name: '',
