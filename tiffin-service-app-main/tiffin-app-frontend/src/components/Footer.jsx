@@ -30,10 +30,10 @@ const Footer = () => {
             Contact Us
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Phone: <StyledLink href="tel:+12262016868">+12262016868</StyledLink>
+            Phone: <StyledLink href="tel:+15485772223">+15485772223</StyledLink>
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Email: <StyledLink href="mailto:info@mytiffinservice.com">info@mytiffinservice.com</StyledLink>
+            Email: <StyledLink href="mailto:gujjutiffinservice94@gmail.com">gujjutiffinservice94@gmail.com</StyledLink>
           </Typography>
           <Typography variant="body1" gutterBottom>
             Address: <StyledLink href="https://maps.app.goo.gl/E9oZB8TJSbhKRzmU6?g_st=ic">2-27 Wellington St N, Kitchener, ON, N2H 5J3</StyledLink>

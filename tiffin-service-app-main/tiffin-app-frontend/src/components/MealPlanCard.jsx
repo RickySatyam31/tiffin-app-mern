@@ -14,7 +14,7 @@ export default function MealPlanCard(props) {
          <li> Plus, get free delivery! </li>
         </ul>
       ),
-      price: '120',
+      price: '159.99',
       buttonText: <TrialRequestModal />,
     },
     {
@@ -29,7 +29,7 @@ export default function MealPlanCard(props) {
         <li>Plus, get free delivery!</li>
       </ul>
       ),
-      price: '200',
+      price: '199.99',
       buttonText: <TrialRequestModal />,
       isMostPopular: true,
     },
@@ -46,7 +46,7 @@ export default function MealPlanCard(props) {
         <li>Plus, get free delivery!</li>
       </ul>
       ),
-      price: '220',
+      price: '239.99',
       buttonText: <TrialRequestModal />,
     },
   ];
